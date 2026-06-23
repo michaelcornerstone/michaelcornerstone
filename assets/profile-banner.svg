@@ -1,0 +1,70 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Michael Thomas - Cornerstone Custom AI Solutions</title>
+  <desc id="desc">A dark blue branded profile banner for Michael Thomas, founder of Cornerstone Custom AI Solutions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070D"/>
+      <stop offset="0.48" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#021B3A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="160" y1="45" x2="1030" y2="315" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF"/>
+      <stop offset="0.52" stop-color="#0B5FFF"/>
+      <stop offset="1" stop-color="#8AD3FF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(975 95) rotate(135) scale(410 250)">
+      <stop stop-color="#0B5FFF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#0B5FFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-glow" x="-80" y="-80" width="1360" height="520" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" stroke="#1E3A5F" stroke-width="1" stroke-opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)" opacity="0.35"/>
+  <rect width="1200" height="360" rx="24" fill="url(#glow)"/>
+
+  <g opacity="0.38" filter="url(#soft-glow)">
+    <path d="M-40 308 C130 230 230 246 390 158 C560 64 690 112 840 74 C998 34 1088 72 1250 14" stroke="url(#accent)" stroke-width="8"/>
+    <path d="M-20 348 C150 272 270 292 430 208 C610 112 700 174 888 130 C1050 92 1148 132 1240 90" stroke="#58A6FF" stroke-width="4"/>
+  </g>
+
+  <g opacity="0.7">
+    <circle cx="118" cy="104" r="54" fill="#0B5FFF" fill-opacity="0.14" stroke="#58A6FF" stroke-opacity="0.4"/>
+    <path d="M118 58 L158 82 V128 L118 152 L78 128 V82 L118 58Z" fill="#0D1117" stroke="#58A6FF" stroke-width="2"/>
+    <path d="M118 76 L141 90 V118 L118 132 L95 118 V90 L118 76Z" fill="#101A2A" stroke="#8AD3FF" stroke-width="2"/>
+    <path d="M95 90 L118 104 L141 90" stroke="#8AD3FF" stroke-width="2"/>
+    <path d="M118 104 V132" stroke="#8AD3FF" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(225 92)">
+    <text x="0" y="0" fill="#8AD3FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="5">
+      CORNERSTONE CUSTOM AI SOLUTIONS
+    </text>
+    <text x="0" y="64" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="0">
+      Michael Thomas
+    </text>
+    <text x="0" y="108" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="500" letter-spacing="0">
+      AI automation | Websites | Azure workflows | Business systems
+    </text>
+    <rect x="0" y="142" width="590" height="1" fill="url(#accent)" opacity="0.8"/>
+    <text x="0" y="187" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="0">
+      Build the workflow. Secure the data. Ship the system.
+    </text>
+  </g>
+
+  <g opacity="0.55">
+    <circle cx="1020" cy="92" r="4" fill="#58A6FF"/>
+    <circle cx="1085" cy="136" r="4" fill="#8AD3FF"/>
+    <circle cx="1000" cy="214" r="4" fill="#58A6FF"/>
+    <circle cx="1116" cy="246" r="4" fill="#8AD3FF"/>
+    <path d="M1020 92 L1085 136 L1000 214 L1116 246" stroke="#58A6FF" stroke-width="2" stroke-opacity="0.45"/>
+    <path d="M1085 136 L1116 246" stroke="#8AD3FF" stroke-width="2" stroke-opacity="0.25"/>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="23.5" stroke="#1F6FEB" stroke-opacity="0.45"/>
+</svg>
